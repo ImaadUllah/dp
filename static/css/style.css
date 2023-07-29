@@ -1,0 +1,54 @@
+/* Add styles for the h1 heading */
+h1 {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+    margin-top: -7px;
+  }
+  
+  /* Add styles for the dropdown div */
+  div#country-dropdown-div {
+    display: flex;
+  }
+  
+  /* Add styles for the map section */
+  div#map-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the lab-grown diamonds section */
+  div#lab-grown-diamonds-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the natural diamonds section */
+  div#natural-diamonds-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the diamond section */
+  div#diamond-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the bar charts section */
+  div#bar-charts-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the scatter plot section */
+  div#scatter-plot-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the additional scatter plot sections */
+  div#scatter-plot2-section,
+  div#scatter-plot3-section {
+    text-align: center;
+  }
+  
+  /* Add styles for the Dash app section */
+  div#dash-app-section {
+    text-align: center;
+  }
+  
