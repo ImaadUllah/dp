@@ -8,7 +8,56 @@
     <title>Diamond Data Visualization</title>
 </head>
 <body>
+    <div class="container">
+        <h1>Diamond Data Visualization</h1>
 
-    <script type="text/python" src="Flask_v2_final.py"></script>
+        <!-- Map Visualization Section -->
+        <h2>Map Visualization</h2>
+        <div class="map-section">
+            {{ map_section | safe }}
+        </div>
+
+        <!-- Lab-Grown Diamonds Section -->
+        <h2>Lab-Grown Diamonds</h2>
+        <div class="lab-grown-diamonds-section">
+            {{ lab_grown_diamonds_section | safe }}
+        </div>
+
+        <!-- Natural Diamonds Section -->
+        <h2>Natural Diamonds</h2>
+        <div class="natural-diamonds-section">
+            {{ natural_diamonds_section | safe }}
+        </div>
+
+        <!-- Diamond Visualization Section -->
+        <h2>Diamond Visualization</h2>
+        <div class="diamond-section">
+            {{ diamond_section | safe }}
+        </div>
+
+        <!-- Bar Charts Section -->
+        <h2>Bar Charts</h2>
+        <div class="bar-charts-section">
+            {{ bar_charts_section | safe }}
+        </div>
+
+        <!-- Scatter Plot Section -->
+        <h2>Scatter Plot</h2>
+        <div class="scatter-plot-section">
+            {{ scatter_plot_section | safe }}
+        </div>
+
+        <!-- Scatter Plot 2 Section -->
+        <h2>Scatter Plot 2</h2>
+        <div class="scatter-plot2-section">
+            {{ scatter_plot2_section | safe }}
+        </div>
+
+        <!-- Scatter Plot 3 Section -->
+        <h2>Scatter Plot 3</h2>
+        <div class="scatter-plot3-section">
+            {{ scatter_plot3_section | safe }}
+        </div>
+    </div>
 </body>
 </html>
